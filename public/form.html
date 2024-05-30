@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form_styl.css" />
+    <title>HOME</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/all">All Users</a>
+    </nav>
+    <div id="main">
+      <h2>Contact Details</h2>
+      <form action="/Createuser" method="post">
+        <label for="firstName">First Name : </label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="John"
+          required
+        />
+        <label for="lastName">Last Name : </label>
+        <input type="text" id="lastName" name="lastName" placeholder="Doe" />
+        <label for="email">E-mail : </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="JohnDoe@email.com"
+          required
+        />
+        <label for="contact">Contact No. :</label>
+        <input type="tel" name="contact" placeholder="9999999999" required />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

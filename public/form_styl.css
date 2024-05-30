@@ -1,0 +1,50 @@
+* {
+  margin: auto;
+  font-family: Arial;
+}
+
+#main {
+  padding: 10px;
+  flex-direction: column;
+  margin: 50px auto;
+  box-sizing: border-box;
+  height: 500px;
+  width: 700px;
+  background-color: #e6e6e69a;
+  border-radius: 20px;
+  box-shadow: 1px 5px 15px #00000026;
+}
+#main h2 {
+  background: transparent;
+  margin: 20px 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+form label {
+  margin: 5px 30px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+form input {
+  margin: 0 auto 10px;
+  padding: 3px 10px;
+  font-size: 14px;
+  width: 90%;
+  height: 25px;
+  border: 1px solid #a6a6a650;
+}
+#submit {
+  margin: 15px 35px 0 auto;
+  font-size: 18px;
+  padding: 7px 20px;
+  width: fit-content;
+  background: #d984df;
+  color: white;
+  border: none;
+}
