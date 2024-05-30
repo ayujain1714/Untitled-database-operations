@@ -1,6 +1,6 @@
 # Technologies used
 
-# Uses Node.js as backed technology to manage form and send users to the webpage.
+### Uses Node.js as backed technology to manage form and send users to the webpage.
 - used express.js as node.js framework.
 - used mongoose.js to connect to database.
   
