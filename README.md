@@ -1,4 +1,4 @@
-# Technologies used
+# Tech Stacks
 
 ### Uses Node.js as backed technology to manage form and send users to the webpage.
 - used express.js as node.js framework.
